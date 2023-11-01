@@ -17,6 +17,24 @@ header h1{
     color: white;
 }
 
+.personal li a{
+    color: red;
+    text-decoration: none;
+}
+
 .description p{
     color: white;
+}
+
+.movies ol{
+    list-style-type:decimal;
+}
+
+.movies dt{
+   color: yellow;
+   font-weight: bold;
+}
+
+.mood span{
+    color:white;
 }
