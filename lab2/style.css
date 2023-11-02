@@ -9,7 +9,7 @@ header {
     width: 100px;
 }
 
-header #button {
+header .button {
     padding: 10px;
     background-color: olive;
     color: white;
@@ -35,7 +35,7 @@ header #button {
     padding: 15px; text-align: left;
 }
 
-.container #button{
+.container .button{
     padding: 10px;
     background-color: olive;
     color: white;
