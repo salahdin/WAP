@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="header">
+            <div id="logo"> <img src="logo.png" alt="logo"> </div>
+            <h2>Welcome, salahdin </h2>
+            <button id="button">Logout</button>
+        </header>
+        <hr>
+        
+        <div class="container">
+            <h3>Product List</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Node.js</td>
+                        <td>50</td>
+                        <td>5</td>
+                        <td>delete</td>
+                    </tr>
+
+                    <tr>
+                        <td>React</td>
+                        <td>50</td>
+                        <td>5</td>
+                        <td>delete</td>
+                    </tr>
+
+                    <tr>
+                        <td>Angular</td>
+                        <td>50</td>
+                        <td>5</td>
+                        <td>delete</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3> Your Shopping Cart </h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Node.js</td>
+                        <td>50</td>
+                        <td>5</td>
+                        <td><input type="number" id="amount" value="1" name="amount" min="1" max="10" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>React</td>
+                        <td>50</td>
+                        <td>5</td>
+                        <td><input type="number" id="amount" value="1" name="amount" min="1" max="10" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>Angular</td>
+                        <td>50</td>
+                        <td>5</td>
+                        <td><input type="number" id="amount" name="amount" value="1" min="1" max="10" /></td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total</td>
+                        <td>150</td>
+                        <td>3</td>
+                    </tr>
+            </table>
+            <button id="button">Place Order</button>
+        </div>
+        
+        <footer>
+            <p>&copy;My Website</p>
+        </footer>
+    </body>
+</html>
