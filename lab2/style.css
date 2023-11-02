@@ -42,3 +42,16 @@ header #button {
     text-align: right;
     float: right;
 }
+
+.action{
+    padding: 10px;
+    color: white;
+}
+
+.action.add{
+    background-color: green;
+}
+
+.action.remove{
+    background-color: brown;
+}
