@@ -40,7 +40,7 @@ header{
     border: none;
 }
 
-footer{
+#last-buttons{
     background-color:rgb(241, 241, 241);
     padding: 2px;
     font-weight: bold;
@@ -49,6 +49,6 @@ footer{
     align-items: center;
 }
 
-footer button{
+#last-buttons button{
     margin: 10px;
 }
